@@ -28,7 +28,7 @@ darkMode.addEventListener('click', () => {
         })
         .add({
             targets: ".hidden",
-            textContent: toggle ? 'test 100' : 'jk this is not a drill 800'
+            innerHTML: toggle ? '<h1>Test 100</h1>' : '<h1>jk this is not a drill 1000000</h1>'
         }
         , '-= 350')
         .add({
