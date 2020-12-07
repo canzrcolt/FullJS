@@ -23,6 +23,15 @@ darkMode.addEventListener('click', () => {
             ]
         })
         .add({
+            targets: ".fancy",
+            color: toggle ? 'rgb(201, 36, 36)' : 'rgb(206, 122, 122)'
+        })
+        .add({
+            targets: ".hidden",
+            textContent: toggle ? 'test 100' : 'jk this is not a drill 800'
+        }
+        , '-= 350')
+        .add({
             targets: "#darkMode",
             rotate: -50
         }, '-= 400')
