@@ -1,0 +1,22 @@
+webgradients.com
+
+https://youtu.be/a9VZEgbHxrg
+
+1:51   VS Code (text editor)
+2:35   Emmet (code tool)
+2:42   Live Server (for VS Code)
+3:01   Material Theme (for VS Code)
+3:22   Prettier (code tool)
+4:12   Auto Rename Tag (for VS Code)
+5:06   JSON Viewer (Browser Extension)
+5:30   Affinity Photo (Photo Editing)
+5:45   GIMP (Photo Editing)
+6:15   Pexels (for photos)
+6:53   Unsplash.com (for photos)
+6:56   Placeholder.com (for placeholder images)
+7:36   tinypng.com (compress images)
+8:08   Figma (design websites)
+8:57   UI Gradient & Coolors (websites for color palettes)
+9:12   DaVinci Resolve (videos for browser)
+9:38   Font Awesome & iconmonstr (for icons)
+10:02  Undraw (for free illustrations)
