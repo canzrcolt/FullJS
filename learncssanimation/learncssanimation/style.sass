@@ -1,0 +1,66 @@
+$three-font: 3rem
+$trans-time: transform 3s
+
+body
+    height: 100vh
+    background: black
+    color: white
+    display: flex
+    justify-content: center
+
+.group
+    height: 50rem
+    width: 60rem
+    background-color: orange    
+    border-radius: 2rem 4rem 2rem 20rem
+
+.group    
+    h1,h2,h3
+        font-size: $three-font
+    h1
+        background-color: grey  
+    h3
+        text-align: center      
+
+.move-right
+    transition: $trans-time
+
+.move-left
+    transition: $trans-time
+    
+.move-down
+    transition: $trans-time
+
+.move-up
+    transition: $trans-time 
+
+.move-closer
+    transition: $trans-time
+
+.move-away
+    transition: transform 3s
+
+.group:hover
+    .move-right
+        background-color: purple
+        transform: translateX(3rem)
+    .move-left
+        background-color: purple
+        transform: translateX(-3rem)
+        
+    .move-down
+        background-color: rgb(230, 99, 230)
+        transform: translateY(3rem)
+    .move-up
+        background-color: rgb(230, 99, 230)
+        transform: translateY(-3rem)
+    .move-closer
+        background-color: rgb(70, 70, 70)
+        transform: perspective(3px) translateZ(1px)
+    .move-away
+        background-color: rgb(70, 70, 70)
+        transform: perspective(3px) translateZ(-11px)
+
+        
+
+
