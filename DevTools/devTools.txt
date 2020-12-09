@@ -1,5 +1,7 @@
-webgradients.com
+\\From DevEd
 
+webgradients.com
+Framer Motion (for react animations)
 https://youtu.be/a9VZEgbHxrg
 
 1:51   VS Code (text editor)
@@ -20,3 +22,24 @@ https://youtu.be/a9VZEgbHxrg
 9:12   DaVinci Resolve (videos for browser)
 9:38   Font Awesome & iconmonstr (for icons)
 10:02  Undraw (for free illustrations)
+
+\\ From Fireship
+use this if you're scared of overly large bundles
+
+- BundlePhobia https://bundlephobia.com/
+
+Use to find fonts easily
+
+- Fontflipper https://fontflipper.com/
+
+interact visually with your website
+
+- Visbug https://github.com/GoogleChromeLabs/ProjectVisBug
+
+some kind of API building and workflow thing
+
+- Insomnia https://insomnia.rest/
+
+For 2d vector animations
+
+- Flare https://www.2dimensions.com/about-flare
