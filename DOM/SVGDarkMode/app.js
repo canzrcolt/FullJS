@@ -16,12 +16,7 @@ darkMode.addEventListener('click', () => {
     })
     //add different animations to the timeline
     timeline
-        .add({
-            targets: ".sun",
-            d: [
-                {value: toggle ? sunPath : moonPath}
-            ]
-        })
+        
         .add({
             targets: ".fancy",
             color: toggle ? 'rgb(201, 36, 36)' : 'rgb(206, 122, 122)'

@@ -7,7 +7,7 @@ Bottom = document.querySelector('.bottom')
 
 console.log(Welcome.innerText);
 
-const smoothScrollify = (source, dest) => {
+const smoothScrollify = (source, dest ) => {
     source.addEventListener('click', function(){
         dest.scrollIntoView({ behavior: 'smooth' })
     })
@@ -22,8 +22,9 @@ Yo.addEventListener('click', function(){
         Welcome.classList.remove('fancy')
     }
 })
-smoothScrollify(Welcome, Bottom);
-smoothScrollify(Bottom, Yo);
+smoothScrollify(Welcome, Bottom)
+smoothScrollify(Bottom, Yo)
+
 
 
 

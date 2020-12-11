@@ -40,6 +40,24 @@ some kind of API building and workflow thing
 
 - Insomnia https://insomnia.rest/
 
-For 2d vector animations
+For 2d vector animations and images
+
+-Undraw and DrawKit
+
+-icons8 under the ouch tab
+
+-lukaszadam.com
+
+-humaaans.com
+
+-freepik.com
 
 - Flare https://www.2dimensions.com/about-flare
+
+For Icons mostly
+
+-flaticon.com
+
+-iconfinder.com
+
+-thenounproject.com

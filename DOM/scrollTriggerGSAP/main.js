@@ -1,4 +1,4 @@
 gsap.to(".box", {
     scrollTrigger: '.box',
-    x: 500
+    x: 1500
 })
