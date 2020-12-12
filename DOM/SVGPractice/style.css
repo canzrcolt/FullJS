@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    background: rgb(220,220,220);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+svg {
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+    
+}
+
+.newMoon {
+    animation-name: backgroundColorPalette;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+      fill: #6C63FF;
+    }
+   
+    100% {
+      fill: #6FFF63;
+    }
+  }
