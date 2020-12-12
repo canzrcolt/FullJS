@@ -21,6 +21,9 @@ const newStar6 = "M692.989 218.022L689.244 221.216L685.522 218L683.026 220.129L6
 
 const darkMode = document.querySelector('#darkMode')
 const oldyMoon = document.querySelector('.oldMoon')
+const oldyFace = document.querySelector('.oldFace')
+const section = document.querySelector('section')
+const visible = document.querySelector('.visible')
 let toggle = false;
 
 darkMode.addEventListener('click', () => {
@@ -31,6 +34,11 @@ darkMode.addEventListener('click', () => {
         loop:true
     })
     oldyMoon.classList.toggle('newMoon')
+    oldyFace.classList.toggle('newFace')
+    section.classList.toggle('sectionCool')
+    visible.classList.toggle('hidden')
+
+
     timeline.add({
         targets: ".oldLineTop",
         d: [
