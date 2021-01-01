@@ -28,3 +28,11 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+const arrBtnsOpenModal = Array.from(btnsOpenModal);
+
+console.log(arrBtnsOpenModal);
+arrBtnsOpenModal.forEach(w => {
+  console.log(w);
+  w.addEventListener('click', openModal);
+});
