@@ -1,4 +1,4 @@
-functions addGlobalEventListener(type, selector, callback) {
+function addGlobalEventListener(type, selector, callback) {
   document.addEventListener(type, e => {
     if (e.target.matches(selector)) callback(e)
   })
