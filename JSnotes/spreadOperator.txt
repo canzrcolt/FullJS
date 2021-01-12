@@ -1,0 +1,8 @@
+Spread is like Unpacking and array.    source 09-data-structures-operators
+
+spread operator takes everything out of an array and makes a new one. it can join arrays
+it can also take all the elements out of an array. 
+it can also copy an array
+in ES2018 you can actually make it deal with objects and it's amazing
+
+**Make sure you only use commas when dealing with spread operator. ${} won't work, and neither will adding(concatenating)

@@ -1,3 +1,13 @@
 to smooth scroll, just grab the two areas you want with document.querySelector
 and then add 'click' event listener and inside the anonymous function that is 
 the second parameter of the event listener, put <destination>.scrollIntoView({ behavior: 'smooth' });
+
+
+
+** da function **
+
+const smoothScrollify = (source, dest ) => {
+    source.addEventListener('click', function(){
+        dest.scrollIntoView({ behavior: 'smooth' })
+    })
+}
