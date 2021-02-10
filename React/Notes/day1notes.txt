@@ -1,0 +1,15 @@
+React is a javascript library
+
+- React manipulates the DOM and doesn't want you to because it can do it faster. You make a blueprint for how the DOM should be manipulated
+
+- React is based off of components that are like blocks
+
+- There is a unidirectional data flow that doesn't allow anything higher in the heirachy to be affected when something in the lower part changes
+
+- Non-Opinioned unlike angular
+
+- you give state (which is like data?) and components with props to react to create a virtualdom
+
+- the react library uses the virtualdom you created to manipulate the dom
+
+- jsx is the syntax used that is combination of JS and html
