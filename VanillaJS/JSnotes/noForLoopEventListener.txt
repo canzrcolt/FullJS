@@ -1,0 +1,14 @@
+
+for (let i = 0; i < btnsOpenModal.length; i++)
+  btnsOpenModal[i].addEventListener('click', openModal);
+
+Can Also Be Written as
+
+const arrBtnsOpenModal = Array.from(btnsOpenModal);
+
+console.log(arrBtnsOpenModal);
+arrBtnsOpenModal.forEach(w => {
+  console.log(w);
+  w.addEventListener('click', openModal);
+});
+
