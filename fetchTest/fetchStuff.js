@@ -16,3 +16,4 @@ const dog = fetch("https://reqres.in/api/users", {
     res.json();
   })
   .then((data) => console.log(data));
+
